@@ -1,0 +1,10 @@
+
+# Figures Folder
+
+This folder contains figures used in the manuscript.
+
+## Examples
+- Figure 1: Hybrid TP–ANFIS framework
+- Graphical Abstract
+
+These figures illustrate the methodology and key findings.

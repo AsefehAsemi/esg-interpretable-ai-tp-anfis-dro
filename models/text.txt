@@ -1,1 +1,10 @@
 
+
+This folder contains trained models and extracted rule sets.
+
+## Contents
+- ANFIS models (.fis, .pkl)
+- Extracted fuzzy rules
+- Optimized model parameters
+
+These models can be used directly for inference or further analysis.

@@ -1,0 +1,12 @@
+
+# Results Folder
+
+This folder contains outputs of the modeling process.
+
+## Contents
+- Model predictions
+- Evaluation results (R², RMSE)
+- Rule-based outputs
+- DRO analysis inputs and outputs
+
+These files reproduce the results reported in the manuscript.

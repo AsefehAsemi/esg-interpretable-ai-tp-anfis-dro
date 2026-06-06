@@ -1,0 +1,12 @@
+
+This folder contains all datasets used for ESG-based modeling.
+
+## Contents
+
+- Raw ESG and financial datasets
+- Processed datasets used for modeling
+- ANFIS input-output datasets
+- DRO-ready dataset for temporal rule analysis
+
+## Key File
+- `DRO_ready_dataset.csv`: Dataset used for Dynamic Rule Obsolescence analysis

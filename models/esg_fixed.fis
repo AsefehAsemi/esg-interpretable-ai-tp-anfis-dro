@@ -1,0 +1,218 @@
+
+[System]
+Name='esg'
+Type='sugeno'
+Version=2.0
+NumInputs=4
+NumOutputs=1
+NumRules=82
+AndMethod='prod'
+OrMethod='probor'
+ImpMethod='prod'
+AggMethod='sum'
+DefuzzMethod='wtaver'
+
+[Input1]
+Name='input1'
+Range=[0 1]
+NumMFs=4
+MF1='mf1':'gaussmf',[0.2 0]
+MF2='mf2':'gaussmf',[0.2 0.5]
+MF3='mf3':'gaussmf',[0.2 1]
+MF4='mf4':'gaussmf',[0.4 0.5]
+
+[Input2]
+Name='input2'
+Range=[0 1]
+NumMFs=4
+MF1='mf1':'gaussmf',[0.2 0]
+MF2='mf2':'gaussmf',[0.2 0.5]
+MF3='mf3':'gaussmf',[0.2 1]
+MF4='mf4':'gaussmf',[0.4 0.5]
+
+[Input3]
+Name='input3'
+Range=[0 1]
+NumMFs=4
+MF1='mf1':'gaussmf',[0.2 0]
+MF2='mf2':'gaussmf',[0.2 0.5]
+MF3='mf3':'gaussmf',[0.2 1]
+MF4='mf4':'gaussmf',[0.4 0.5]
+
+[Input4]
+Name='input4'
+Range=[0 1]
+NumMFs=4
+MF1='mf1':'gaussmf',[0.2 0]
+MF2='mf2':'gaussmf',[0.2 0.5]
+MF3='mf3':'gaussmf',[0.2 1]
+MF4='mf4':'gaussmf',[0.4 0.5]
+
+[Output1]
+Name='Annual_Return'
+Range=[1 3]
+NumMFs=81
+MF1='out1':'constant',[1]
+MF2='out2':'constant',[2]
+MF3='out3':'constant',[3]
+MF4='out4':'constant',[1]
+MF5='out5':'constant',[2]
+MF6='out6':'constant',[3]
+MF7='out7':'constant',[1]
+MF8='out8':'constant',[2]
+MF9='out9':'constant',[3]
+MF10='out10':'constant',[1]
+MF11='out11':'constant',[2]
+MF12='out12':'constant',[3]
+MF13='out13':'constant',[1]
+MF14='out14':'constant',[2]
+MF15='out15':'constant',[3]
+MF16='out16':'constant',[1]
+MF17='out17':'constant',[2]
+MF18='out18':'constant',[3]
+MF19='out19':'constant',[1]
+MF20='out20':'constant',[2]
+MF21='out21':'constant',[3]
+MF22='out22':'constant',[1]
+MF23='out23':'constant',[2]
+MF24='out24':'constant',[3]
+MF25='out25':'constant',[1]
+MF26='out26':'constant',[2]
+MF27='out27':'constant',[3]
+MF28='out28':'constant',[1]
+MF29='out29':'constant',[2]
+MF30='out30':'constant',[3]
+MF31='out31':'constant',[1]
+MF32='out32':'constant',[2]
+MF33='out33':'constant',[3]
+MF34='out34':'constant',[1]
+MF35='out35':'constant',[2]
+MF36='out36':'constant',[3]
+MF37='out37':'constant',[1]
+MF38='out38':'constant',[2]
+MF39='out39':'constant',[3]
+MF40='out40':'constant',[1]
+MF41='out41':'constant',[2]
+MF42='out42':'constant',[3]
+MF43='out43':'constant',[1]
+MF44='out44':'constant',[2]
+MF45='out45':'constant',[3]
+MF46='out46':'constant',[1]
+MF47='out47':'constant',[2]
+MF48='out48':'constant',[3]
+MF49='out49':'constant',[1]
+MF50='out50':'constant',[2]
+MF51='out51':'constant',[3]
+MF52='out52':'constant',[1]
+MF53='out53':'constant',[2]
+MF54='out54':'constant',[3]
+MF55='out55':'constant',[1]
+MF56='out56':'constant',[2]
+MF57='out57':'constant',[3]
+MF58='out58':'constant',[1]
+MF59='out59':'constant',[2]
+MF60='out60':'constant',[3]
+MF61='out61':'constant',[1]
+MF62='out62':'constant',[2]
+MF63='out63':'constant',[3]
+MF64='out64':'constant',[1]
+MF65='out65':'constant',[2]
+MF66='out66':'constant',[3]
+MF67='out67':'constant',[1]
+MF68='out68':'constant',[2]
+MF69='out69':'constant',[3]
+MF70='out70':'constant',[1]
+MF71='out71':'constant',[2]
+MF72='out72':'constant',[3]
+MF73='out73':'constant',[1]
+MF74='out74':'constant',[2]
+MF75='out75':'constant',[3]
+MF76='out76':'constant',[1]
+MF77='out77':'constant',[2]
+MF78='out78':'constant',[3]
+MF79='out79':'constant',[1]
+MF80='out80':'constant',[2]
+MF81='out81':'constant',[3]
+
+[Rules]
+1 1 1 1, 1 (1) : 1
+1 1 1 2, 2 (1) : 1
+1 1 1 3, 3 (1) : 1
+1 1 2 1, 4 (1) : 1
+1 1 2 2, 5 (1) : 1
+1 1 2 3, 6 (1) : 1
+1 1 3 1, 7 (1) : 1
+1 1 3 2, 8 (1) : 1
+1 1 3 3, 9 (1) : 1
+1 2 1 1, 10 (1) : 1
+1 2 1 2, 11 (1) : 1
+1 2 1 3, 12 (1) : 1
+1 2 2 1, 13 (1) : 1
+1 2 2 2, 14 (1) : 1
+1 2 2 3, 15 (1) : 1
+1 2 3 1, 16 (1) : 1
+1 2 3 2, 17 (1) : 1
+1 2 3 3, 18 (1) : 1
+1 3 1 1, 19 (1) : 1
+1 3 1 2, 20 (1) : 1
+1 3 1 3, 21 (1) : 1
+1 3 2 1, 22 (1) : 1
+1 3 2 2, 23 (1) : 1
+1 3 2 3, 24 (1) : 1
+1 3 3 1, 25 (1) : 1
+1 3 3 2, 26 (1) : 1
+1 3 3 3, 27 (1) : 1
+2 1 1 1, 28 (1) : 1
+2 1 1 2, 29 (1) : 1
+2 1 1 3, 30 (1) : 1
+2 1 2 1, 31 (1) : 1
+2 1 2 2, 32 (1) : 1
+2 1 2 3, 33 (1) : 1
+2 1 3 1, 34 (1) : 1
+2 1 3 2, 35 (1) : 1
+2 1 3 3, 36 (1) : 1
+2 2 1 1, 37 (1) : 1
+2 2 1 2, 38 (1) : 1
+2 2 1 3, 39 (1) : 1
+2 2 2 1, 40 (1) : 1
+2 2 2 2, 41 (1) : 1
+2 2 2 3, 42 (1) : 1
+2 2 3 1, 43 (1) : 1
+2 2 3 2, 44 (1) : 1
+2 2 3 3, 45 (1) : 1
+2 3 1 1, 46 (1) : 1
+2 3 1 2, 47 (1) : 1
+2 3 1 3, 48 (1) : 1
+2 3 2 1, 49 (1) : 1
+2 3 2 2, 50 (1) : 1
+2 3 2 3, 51 (1) : 1
+2 3 3 1, 52 (1) : 1
+2 3 3 2, 53 (1) : 1
+2 3 3 3, 54 (1) : 1
+3 1 1 1, 55 (1) : 1
+3 1 1 2, 56 (1) : 1
+3 1 1 3, 57 (1) : 1
+3 1 2 1, 58 (1) : 1
+3 1 2 2, 59 (1) : 1
+3 1 2 3, 60 (1) : 1
+3 1 3 1, 61 (1) : 1
+3 1 3 2, 62 (1) : 1
+3 1 3 3, 63 (1) : 1
+3 2 1 1, 64 (1) : 1
+3 2 1 2, 65 (1) : 1
+3 2 1 3, 66 (1) : 1
+3 2 2 1, 67 (1) : 1
+3 2 2 2, 68 (1) : 1
+3 2 2 3, 69 (1) : 1
+3 2 3 1, 70 (1) : 1
+3 2 3 2, 71 (1) : 1
+3 2 3 3, 72 (1) : 1
+3 3 1 1, 73 (1) : 1
+3 3 1 2, 74 (1) : 1
+3 3 1 3, 75 (1) : 1
+3 3 2 1, 76 (1) : 1
+3 3 2 2, 77 (1) : 1
+3 3 2 3, 78 (1) : 1
+3 3 3 1, 79 (1) : 1
+3 3 3 2, 80 (1) : 1
+1 0 0 0, 1 (1) : 1

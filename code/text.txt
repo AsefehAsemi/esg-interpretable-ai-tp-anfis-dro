@@ -1,0 +1,12 @@
+
+This folder contains implementation codes for the hybrid TP–ANFIS framework.
+
+## Structure
+- `/matlab` – Primary implementation (ANFIS training, rule extraction)
+- `/python` – Supporting implementation for reproducibility
+
+## Key Functions
+- Data preprocessing
+- Model training (ANFIS)
+- Rule extraction
+- Performance evaluation

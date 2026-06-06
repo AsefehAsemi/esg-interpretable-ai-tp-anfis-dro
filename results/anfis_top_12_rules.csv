@@ -1,0 +1,13 @@
+rule_id,weight,coverage,rep_output,rule_text
+367,0.009593,0.064572,0.045179,IF env is M AND soc is VH AND gov is H AND mom is L THEN annual_return = VL
+372,0.008802,0.054101,0.026758,IF env is M AND soc is VH AND gov is VH AND mom is L THEN annual_return = H
+404,0.008519,0.038394,0.01481,IF env is H AND soc is L AND gov is VL AND mom is H THEN annual_return = M
+368,0.008205,0.059337,0.055725,IF env is M AND soc is VH AND gov is H AND mom is M THEN annual_return = M
+373,0.007634,0.054101,0.034181,IF env is M AND soc is VH AND gov is VH AND mom is M THEN annual_return = VH
+378,0.007439,0.04712,0.021701,IF env is H AND soc is VL AND gov is VL AND mom is M THEN annual_return = VH
+196,0.007366,0.022688,0.008812,IF env is L AND soc is M AND gov is VH AND mom is VL THEN annual_return = M
+376,0.006775,0.024433,0.020108,IF env is H AND soc is VL AND gov is VL AND mom is VL THEN annual_return = L
+403,0.006193,0.04363,0.021883,IF env is H AND soc is L AND gov is VL AND mom is M THEN annual_return = H
+56,0.006127,0.017452,0.025626,IF env is VL AND soc is M AND gov is L AND mom is VL THEN annual_return = VH
+66,0.005959,0.026178,0.025956,IF env is VL AND soc is M AND gov is H AND mom is VL THEN annual_return = VL
+562,0.005912,0.029668,0.016551,IF env is VH AND soc is M AND gov is M AND mom is L THEN annual_return = VL

@@ -1,0 +1,9 @@
+Metric,Value
+Total Rules,625.0
+Stable Rules,576.0
+Adaptive Rules,49.0
+Stable Ratio (%),92.16
+Adaptive Ratio (%),7.84
+Mean Adaptive Score,0.096995
+Max Adaptive Score,2.948519
+Min Adaptive Score,-0.229443
